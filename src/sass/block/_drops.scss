@@ -1,0 +1,41 @@
+.drops {
+    margin-top: 40px;
+    &__title {
+        font-size: 125px;
+        text-align: center;
+        color: #1f1e1e;
+    }
+    &__wrapper {
+        margin-top: 76px;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+    &__item {
+        margin-bottom: 45px;
+        padding: 10px;
+        transition: .7s all;
+        &:hover {
+            transform: scale(1.15);
+        }
+        &:not(:nth-child(5n)) {
+            margin-right: 41px;
+        }
+        &-descr {
+            margin-top: 20px;
+        }
+        &-title {
+            font-size: 12px;
+            line-height: 102%;
+            text-transform: uppercase;
+            text-align: center;
+            color: #3c3c3c;
+        }
+        &-price {
+            font-size: 12px;
+            text-transform: uppercase;
+            text-align: center;
+            color: #3c3c3c;
+        }
+    }
+}

@@ -1,0 +1,78 @@
+.put {
+    margin-top: 235px;
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__colours {
+        display: flex;
+        flex-wrap: wrap;
+        max-width: 546px;
+        &-item {
+            position: relative;
+            z-index: 1;
+            &:not(:nth-child(2n)) {
+                margin-right: 8px;
+            }
+            &:hover {
+                .circle {
+                    transform: scale(1.35);
+                }
+            }
+            .circle {
+                position: absolute;
+                border-radius: 100%;
+                width: 150px;
+                height: 150px;
+                z-index: 5;
+                top: 60px;
+                left: 60px; 
+                transition: .7s all;
+                &-1 {
+                    background: #6a727d;
+                }
+                &-2 {
+                    background: #445f45;
+                }
+                &-3 {
+                    background: #e0c3b0;
+                }
+                &-4 {
+                    background: #232121;
+                }
+            }
+        }
+    }
+    &__item {
+        border-radius: 8px;
+        width: 546px;
+        height: 546px;
+        background: #c6bc8a;
+        &-title {
+            font-size: 52px;
+            line-height: 112%;
+            text-align: center;
+            color: $green;
+            margin-top: 157px;
+        }
+        &-link {
+            text-decoration: none;
+            font-size: 20px;
+            line-height: 104%;
+            text-align: center;
+            color: $green;
+            display: block;
+            cursor: pointer;
+            margin-top: 25px;
+        }
+        &-descr {
+            font-size: 12px;
+            line-height: 153%;
+            text-transform: uppercase;
+            text-align: center;
+            color: $green;
+            margin-top: 163px;
+        }
+    }
+}

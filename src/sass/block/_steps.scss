@@ -1,0 +1,23 @@
+.steps {
+    margin-top: 58px;
+    &__wrapper {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    &__item {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-size: 12px;
+        line-height: 153%;
+        text-transform: uppercase;
+        color: #3c3c3c;
+    }
+    &__count {
+        font-size: 18px;
+        line-height: 153%;
+        color: #3c3c3c;
+        margin-right: 17px;
+    }
+}

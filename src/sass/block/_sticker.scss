@@ -1,0 +1,20 @@
+.sticker {
+    margin-top: 50px;
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__item {
+        width: 546px;
+        height: 546px;
+        background-color: #E3E0DB;
+        &-title {
+            font-size: 46px;
+            line-height: 109%;
+            text-align: center;
+            color: $main-color;
+            margin: 139px 0 29px 0;
+        }
+    }
+}

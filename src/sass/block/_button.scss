@@ -1,0 +1,28 @@
+.button {
+    display: block;
+    border: 1px solid #1f1e1e;
+    border-radius: 4px;
+    width: 200px;
+    height: 37px;
+    background: #1f1e1e;
+    font-size: 12px; 
+    text-transform: uppercase;
+    text-align: center;
+    color: #fff;
+    line-height: 102%;
+    &:not(:disabled) {
+        cursor: pointer;
+    }
+    &__drops {
+        width: 139px;
+        margin: 0 auto;
+    }
+    &__plus {
+        width: 127px;
+        margin: 0 auto;
+    }
+    &__sticker {
+        width: 149px;
+        margin: 0 auto;
+    }
+}

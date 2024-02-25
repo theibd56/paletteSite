@@ -1,0 +1,19 @@
+.plus {
+    margin-top: 35px;
+    &__title {
+        font-size: 192px;
+        line-height: 105%;
+        color: $main-color;
+        text-align: center;
+    }
+    &__descr {
+        margin: 39px 0 24px 0;
+        list-style-type: none;
+        padding: 0;
+        text-align: center;
+        font-size: 21px;
+        line-height: 139%;
+        text-align: center;
+        color: $main-color;
+    }
+}

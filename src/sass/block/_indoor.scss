@@ -1,0 +1,30 @@
+.indoor {
+    margin-top: 96px;
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-top: 50px;
+        border-top: 1px solid rgba($color: #1e1e1e, $alpha: 0.1);
+    }
+    &__item {
+            border-radius: 8px;
+            width: 546px;
+            height: 546px;
+            background: #f4ede6;
+        &-title {
+            font-size: 52px;
+            line-height: 112%;
+            text-align: center;
+            color: $green;
+            margin: 150px 0 157px 0;
+        }
+        &-descr {
+            font-size: 12px;
+            line-height: 153%;
+            text-transform: uppercase;
+            text-align: center;
+            color: $green;
+        }
+    }
+}

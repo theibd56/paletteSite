@@ -1,0 +1,22 @@
+@import 'base/variables';
+@import 'libs/font';
+
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+@import 'block/header';
+@import 'block/button';
+@import 'block/steps';
+@import 'block/drops';
+@import 'block/mission';
+@import 'block/indoor';
+@import 'block/plus';
+@import 'block/sticker';
+@import 'block/put';
+@import 'block/footer';

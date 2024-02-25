@@ -1,0 +1,19 @@
+.mission {
+    margin-top: 100px;
+    &__title {
+        font-size: 12px;
+        line-height: 153%;
+        text-transform: uppercase;
+        text-align: center;
+        color: #3c3c3c;
+        margin-bottom: 16px;
+    }
+    &__descr {
+        font-size: 38px;
+        line-height: 121%;
+        text-align: center;
+        color: $main-color;
+        max-width: 681px;
+        margin: 0 auto;
+    }
+}
