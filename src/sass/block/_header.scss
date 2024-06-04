@@ -17,6 +17,7 @@
             text-transform: uppercase;
             font-weight: 400;
             font-size: 12px;
+            @include li-anime;
             li:not(:last-child) {
                 margin-right: 17px;
             }
@@ -60,6 +61,8 @@
             display: flex;
             justify-content: space-around;
             align-items: center;
+            list-style-type: none;
+            @include li-anime;
             a {
                 color: $white;
                 text-decoration: none;

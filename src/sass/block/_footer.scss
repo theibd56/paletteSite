@@ -53,16 +53,22 @@
         }
     }
     &__link {
-        text-decoration: none;
-        font-size: 12px;
-        line-height: 116%;
-        text-transform: uppercase;
-        color: $main-color;
+        @include li-anime-black;
+        li {
+            width: fit-content;
+        }
         &-title {
-            font-size: 13px;
-            line-height: 153%;
+            font-size: 13px;   
+            margin-bottom: 10px;
             text-transform: uppercase;
             color: #3c3c3c;
+            opacity: 0.6;
+        }
+        &-item {
+            text-decoration: none;
+            font-size: 12px;
+            text-transform: uppercase;
+            color: $main-color;
         }
     }
     &__bottom {

@@ -1,0 +1,43 @@
+@mixin li-anime {
+    li {
+        position: relative;
+    }
+    li:after {
+        content: "";
+        display: block;
+        position: absolute;
+        right: 0;
+        bottom: -3px;
+        width: 0;
+        height: 1px; 
+        background-color: #fff; 
+        transition: width 0.4s; 
+    }
+    li:hover:after {
+        content: "";
+        width: 100%;
+        left: 0;
+    }
+}
+
+@mixin li-anime-black {
+    li {
+        position: relative;
+    }
+    li:after {
+        content: "";
+        display: block;
+        position: absolute;
+        right: 0;
+        bottom: -3px;
+        width: 0;
+        height: 1px; 
+        background-color: #000; 
+        transition: width 0.4s; 
+    }
+    li:hover:after {
+        content: "";
+        width: 100%;
+        left: 0;
+    }
+}
